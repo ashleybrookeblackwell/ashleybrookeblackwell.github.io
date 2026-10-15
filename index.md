@@ -49,10 +49,6 @@ I decided to treat this absence as the subject itself. By building a network gra
 
 This project classifies chest CT-scan images into lung cancer subtypes (adenocarcinoma, large-cell carcinoma, squamous-cell carcinoma) versus normal tissue. Rather than building a single model, I benchmarked three distinct approaches to determine the most accurate and generalizable strategy on a small, class-imbalanced medical imaging dataset — then deployed the strongest model with Grad-CAM explainability so its predictions can be visually interrogated, not just trusted blindly.
 
->The Table *below* displays the *Test Accuracy*, *Macro-F1* & *Macro-AUC* metrics for each Model.
-
-![Ct-Scans]({{ '/assets/images/ct-scans.png' | relative_url }})
-
 **Three modeling strategies were evaluated for lung cancer subtype classification from CT scans:**
 
 >Baseline CNN
