@@ -9,7 +9,7 @@ Applied data scientist with an MS in Data Analytics and BA in History (Minor in 
 
 ## Selected Work
 
-### The Absent Archive: Mapping what Remains when History is Unraveled 
+### The Absent Archive: Mapping What Remains When History Is Unraveled 
 
 The Metropolitan Museum of Art holds 484,956 objects, including 2,108 from Andean cultures. Andean cultures like the Inka Empire kept their records and accounting using khipukuna (also known as the khipu, which is a Quechua term for "knots”). The Met holds none.
 
@@ -49,7 +49,7 @@ I decided to treat this absence as the subject itself. By building a network gra
 [Explore the Project Here](https://github.com/ashleybrookeblackwell/andean-heritage-network/tree/main)
 
 
-### CNN Classifier for Cancer Detection in Lung CT Scans
+### Lung CT Cancer Classification and Model Deployment
 
 This project classifies chest CT-scan images into lung cancer subtypes (adenocarcinoma, large-cell carcinoma, squamous-cell carcinoma) versus normal tissue. Rather than building a single model, I benchmarked three distinct approaches to determine the most accurate and generalizable strategy on a small, class-imbalanced medical imaging dataset — then deployed the strongest model with Grad-CAM explainability so its predictions can be visually interrogated, not just trusted blindly.
 
@@ -61,7 +61,7 @@ This project classifies chest CT-scan images into lung cancer subtypes (adenocar
 
 >EfficientNetB0 *Transfer Learning* 
 
-The Baseline CNN collapsed under class imbalance, while AutoML improved modestly, but lacking stability. The selected EfficientNetB0 model, fine-tuned via transfer learning, achieved **85.71% test accuracy**, **0.8551 macro-F1**, and **0.969 AUC**, with Grad-CAM overlays enabling visual inspection of model attention within lung regions. Deployed live via Gradio on Hugging Face.
+The Baseline CNN collapsed under class imbalance, while AutoML improved performance modestly but remained unstable. The selected EfficientNetB0 model, fine-tuned via transfer learning, achieved **85.71% test accuracy**, **0.8551 macro-F1**, and **0.969 AUC**, with Grad-CAM overlays enabling visual inspection of model attention within lung regions. Deployed live via Gradio on Hugging Face.
 
 ![Grad-CAM visualization]({{ '/assets/images/grad-cam.png' | relative_url }})
 
@@ -77,13 +77,13 @@ The Baseline CNN collapsed under class imbalance, while AutoML improved modestly
 
 ## Current Research
 
-### Misreading the Archive: What is missing when machines read an Archive? 
+### Misreading The Archive: What Is Missing When Machines Read An Archive? 
 
 **Research in progress**
 
 This research is beginning with English-language Allied records concerning Germany during and immediately after World War II. Candidate sources include administrative reports, displaced-person records, reconstruction documentation, cultural-property inventories, unit records, and damage assessments. The initial corpus is currently being selected.
 
-**The purpose of this project lies in the answers to the following questions:**
+**The research is guided by four questions:**
 
 > What does one administrative system call something that another describes differently?
 > Who appears in one archive but not the other?
