@@ -5,7 +5,7 @@ title: Ashley Blackwell
 
 ![head-shot]({{ '/assets/images/head-shot.png' | relative_url }})
 
-Applied data scientist with an MS in Data Analytics and BA in History (with a minor in Art). With machine learning, model evaluation, data visualization, and 13+ years of operational leadership behind me, I am also experienced in the development and deployment of systems across NLP, computer vision, predictive modeling, and network analysis, with strengths in evaluation, explainability, human-in-the-loop methods, and translating complex requirements into usable tools. My interest lies in interdisciplinary research software and computational approaches to historical, cultural, and human-centered research.
+Applied data scientist with an MS in Data Analytics and BA in History (Minor in Art). With machine learning, model evaluation, data visualization, and 13+ years of operational leadership behind me, I am also experienced in the development and deployment of systems across NLP, computer vision, predictive modeling, and network analysis, with strengths in evaluation, explainability, human-in-the-loop methods, and translating complex requirements into usable tools. My interest lies in interdisciplinary research software and computational approaches to historical, cultural, and human-centered research.
 
 ## Selected Work
 
@@ -89,7 +89,7 @@ This project centers around the English-language Allied records concerning Germa
 
 I build predictive analytics, machine learning, and decision-support systems that make complex information understandable, actionable, and ethically useful. I am interested in how data systems function inside real organizations: how patterns are identified, how inefficiencies are diagnosed, how risk is interpreted, how decisions are made, and how complex information can be translated into something people can actually use.
 
-My work sits at the intersection of data science, operations, ethics, and human-centered decision support. I bring a technical foundation in machine learning, predictive modeling, data analytics, business analytics, and deep learning, supported by an MS in Data Analytics, a Graduate Certificate in Business Analytics, a Deep Learning Specialization, a Certification in IT Automation with Python, and a BA in History (with a Minor in Art).
+My work sits at the intersection of data science, operations, ethics, and human-centered decision support. I bring a technical foundation in machine learning, predictive modeling, data analytics, business analytics, and deep learning, supported by an MS in Data Analytics, a Graduate Certificate in Business Analytics, a Deep Learning Specialization, a Certification in IT Automation with Python, and a BA in History (Minor in Art).
 
 ## Connect
 
