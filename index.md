@@ -20,7 +20,9 @@ Initially, my goal was simply to map the interconnectedness of khipu across Ande
 I decided to treat this absence as the subject itself. By building a network graph linking the Met's 2,108 Andean objects to their respective cultures and mediums, I used betweenness centrality to find the hidden tissue holding the picture together. 
 
 **The data revealed something beautiful:**
->**Materials over Politics:** The top connectors in the network aren't specific empires—they are materials like ceramic, camelid hair, and silver. Materiality is what stitches distinct, separate peoples together across history. 
+
+>**Materials over Politics:** The top connectors in the network aren't specific empires—they are materials like ceramic, camelid hair, and silver. Materiality is what stitches distinct, separate peoples together across history.
+
 >**The Moche Bridge:** The Moche culture emerged as the single greatest architectural bridge in the network, sharing deep attributes across nearly the entire Andean collection. When the written or knotted record is silenced, the physical medium speaks for it. This network visualizes what keeps the story intact when so much of the archive is missing. 
 
 ![The Absent Archive betweenness centrality visualization]({{ '/assets/images/absent-archive.png' | relative_url }})
