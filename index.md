@@ -88,5 +88,5 @@ My work sits at the intersection of data science, operations, ethics, and human-
 
 - [GitHub](https://github.com/ashleybrookeblackwell)
 - [LinkedIn](https://www.linkedin.com/in/ashleybrookeblackwell)
-- [CV]({{ '/assets/files/ABlackwell_Resume.pdf' | relative_url }})
+- [CV]({{ '/assets/files/CV.pdf' | relative_url }})
 - [Email](mailto:ashleybrookeblackwell@gmail.com)
