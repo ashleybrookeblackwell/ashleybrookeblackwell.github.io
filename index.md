@@ -3,6 +3,8 @@ layout: landing
 title: Ashley Blackwell
 ---
 
+image: ![head-shot]({{ '/assets/images/head-shot.png' | relative_url }})
+
 Applied data scientist with an MS in Data Analytics and BA in History (with a minor in Art). With machine learning, model evaluation, data visualization, and 13+ years of operational leadership behind me, I am also experienced in the development and deployment of systems across NLP, computer vision, predictive modeling, and network analysis, with strengths in evaluation, explainability, human-in-the-loop methods, and translating complex requirements into usable tools. My interest lies in interdisciplinary research software and computational approaches to historical, cultural, and human-centered research.
 
 ## Selected Work
