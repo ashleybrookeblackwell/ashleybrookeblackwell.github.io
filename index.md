@@ -24,7 +24,7 @@ I decided to treat this absence as the subject itself. By building a network gra
 ![The Absent Archive betweenness centrality visualization]({{ '/assets/images/absent-archive.png' | relative_url }}) | [Explore the Interactive HTML Here!](https://ashleybrookeblackwell.github.io/andean-heritage-network/Andean_Network_Betweenness_Centrality.html)
 
 **Methods / Tools:** 
->**Data Source:** The Metropolitan Museum of Art Open Access ( MetObjects.csv ), CC0 1.0 Universal.
+>*Data Source:* The Metropolitan Museum of Art Open Access ( MetObjects.csv ), CC0 1.0 Universal.
 >**Full collection:** 484,956 objects.
 >**Andean subset:** 2,108 objects, filtered by culture (Moche, Paracas, Chimú, Nasca, Inca, Wari, Chancay, Lambayeque/Sicán, Tiwanaku, Chavín, and related/uncertain attributions).
 >**Tools:** pandas>=2.0.0, networkx>=3.0, pyvis>=0.3.0, jupyter>=1.0.0, seaborn>=0.12.0
@@ -54,7 +54,7 @@ The Baseline CNN collapsed under class imbalance, while AutoML improved modestly
 ![Grad-CAM visualization]({{ '/assets/images/grad-cam.png' | relative_url }}) | [Hugging Face Deployment](https://huggingface.co/spaces/ablackwellb/chest-ct-cancerscan)
 
 **Methods / Tools:** 
->**Data Source:** A public, four-class chest CT-scan dataset from Kaggle (three cancer subtypes + normal), with meaningful class imbalance — a realistic constraint that shaped every modeling decision below. 
+>*Data Source:* A public, four-class chest CT-scan dataset from Kaggle (three cancer subtypes + normal), with meaningful class imbalance — a realistic constraint that shaped every modeling decision below. 
 >**Tools:** Python, TensorFlow, Keras, EfficientNetB0 (transfer learning), AutoKeras, Grad-CAM, Gradio, Hugging Face Spaces, scikit-learn, NumPy, Matplotlib
 
 [Explore the Project Here](https://github.com/ashleybrookeblackwell/cancer-site-detection-cnn)
