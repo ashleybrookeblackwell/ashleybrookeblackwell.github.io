@@ -23,18 +23,19 @@ I decided to treat this absence as the subject itself. By building a network gra
 >**Materials over Politics:** The top connectors in the network aren't specific empires—they are materials like ceramic, camelid hair, and silver. Materiality is what stitches distinct, separate peoples together across history. 
 >**The Moche Bridge:** The Moche culture emerged as the single greatest architectural bridge in the network, sharing deep attributes across nearly the entire Andean collection. When the written or knotted record is silenced, the physical medium speaks for it. This network visualizes what keeps the story intact when so much of the archive is missing. 
 
-![The Absent Archive betweenness centrality visualization]({{ '/assets/images/absent-archive.png' | relative_url }}) | [Explore the Interactive HTML Here!](https://ashleybrookeblackwell.github.io/andean-heritage-network/Andean_Network_Betweenness_Centrality.html)
+![The Absent Archive betweenness centrality visualization]({{ '/assets/images/absent-archive.png' | relative_url }})
 
-**Methods / Tools:** 
->**Data Source:** The Metropolitan Museum of Art Open Access ( MetObjects.csv ), CC0 1.0 Universal.
+[Explore the Interactive HTML Here!](https://ashleybrookeblackwell.github.io/andean-heritage-network/Andean_Network_Betweenness_Centrality.html)
 
->**Full collection:** 484,956 objects.
+**Methods / Tools**
 
->**Andean subset:** 2,108 objects, filtered by culture (Moche, Paracas, Chimú, Nasca, Inca, Wari, Chancay, Lambayeque/Sicán, Tiwanaku, Chavín, and related/uncertain attributions).
+- **Data Source:** The Metropolitan Museum of Art Open Access ( MetObjects.csv ), CC0 1.0 Universal.
+- **Full collection:** 484,956 objects
+- **Andean subset:** 2,108 objects
+- **Tools:** pandas, NetworkX, PyVis, Jupyter 
 
->**Tools:** pandas>=2.0.0, networkx>=3.0, pyvis>=0.3.0, jupyter>=1.0.0, seaborn>=0.12.0
+**The Network**
 
-**The Network:**
 >**Nodes:** 2,258 (objects + their culture and material attributes)
 
 >**Edges:** 5,509
@@ -44,6 +45,7 @@ I decided to treat this absence as the subject itself. By building a network gra
 >**Metric:** Betweenness Centrality — *which attribute nodes sit on the most paths between everything else*.
 
 [Explore the Project Here](https://github.com/ashleybrookeblackwell/andean-heritage-network/tree/main)
+
 
 ### CNN Classifier for Cancer Detection in Lung CT Scans
 
@@ -57,14 +59,17 @@ This project classifies chest CT-scan images into lung cancer subtypes (adenocar
 
 >EfficientNetB0 *Transfer Learning* 
 
-The Baseline CNN collapsed under class imbalance, while AutoML improved modestly, but lacking stability. The selected EfficientNetB0 model, fine-tuned via transfer learning, achieved **85.71% test accuracy**, **0.8551 macro-F1**, and **0.969 AUC**, with Grad-CAM explainability confirming attention on clinically relevant lung regions. Deployed live via Gradio on Hugging Face.
+The Baseline CNN collapsed under class imbalance, while AutoML improved modestly, but lacking stability. The selected EfficientNetB0 model, fine-tuned via transfer learning, achieved **85.71% test accuracy**, **0.8551 macro-F1**, and **0.969 AUC**, with Grad-CAM overlays enabling visual inspection of model attention within lung regions. Deployed live via Gradio on Hugging Face.
 
-![Grad-CAM visualization]({{ '/assets/images/grad-cam.png' | relative_url }}) | [Hugging Face Deployment](https://huggingface.co/spaces/ablackwellb/chest-ct-cancerscan)
+![Grad-CAM visualization]({{ '/assets/images/grad-cam.png' | relative_url }})
 
-**Methods / Tools:** 
->**Data Source:** A public, four-class chest CT-scan dataset from Kaggle (three cancer subtypes + normal), with meaningful class imbalance — a realistic constraint that shaped every modeling decision below.
+[Hugging Face Deployment](https://huggingface.co/spaces/ablackwellb/chest-ct-cancerscan)
 
->**Tools:** Python, TensorFlow, Keras, EfficientNetB0 (transfer learning), AutoKeras, Grad-CAM, Gradio, Hugging Face Spaces, scikit-learn, NumPy, Matplotlib
+**Methods / Tools** 
+
+- **Data Source:** A public, four-class chest CT-scan dataset from Kaggle (three cancer subtypes + normal), with meaningful class imbalance — a realistic constraint that shaped every modeling decision below.
+
+- **Tools:** Python, TensorFlow, Keras, EfficientNetB0 (transfer learning), AutoKeras, Grad-CAM, Gradio, Hugging Face Spaces, scikit-learn, NumPy, Matplotlib
 
 [Explore the Project Here](https://github.com/ashleybrookeblackwell/cancer-site-detection-cnn)
 
@@ -74,7 +79,7 @@ The Baseline CNN collapsed under class imbalance, while AutoML improved modestly
 
 **Research in progress**
 
-This project centers around the English-language Allied records concerning Germany during and immediately after WW2. It includes personnel reports, transportation, displaced persons, reconstruction, cultural-property inventories, local administrative reports, medical-support records, supply documentation, unit records, and damage assessments. 
+This research is beginning with English-language Allied records concerning Germany during and immediately after World War II. Candidate sources include administrative reports, displaced-person records, reconstruction documentation, cultural-property inventories, unit records, and damage assessments. The initial corpus is currently being selected.
 
 **The purpose of this project lies in the answers to the following questions:**
 
