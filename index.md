@@ -92,6 +92,8 @@ This research is beginning with English-language Allied records concerning Germa
 
 **Status:** Research in progress.
 
+[Explore the Project Here](https://github.com/ashleybrookeblackwell/misreading-the-archive)
+
 ## Background
 
 I build predictive analytics, machine learning, and decision-support systems that make complex information understandable, actionable, and ethically useful. I am interested in how data systems function inside real organizations: how patterns are identified, how inefficiencies are diagnosed, how risk is interpreted, how decisions are made, and how complex information can be translated into something people can actually use.
