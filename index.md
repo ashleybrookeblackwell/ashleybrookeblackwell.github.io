@@ -106,3 +106,55 @@ My work sits at the intersection of data science, operations, ethics, and human-
 - [LinkedIn](https://www.linkedin.com/in/ashleybrookeblackwell)
 - [CV]({{ '/assets/files/CV.pdf' | relative_url }})
 - [Email](mailto:ashleybrookeblackwell@gmail.com)
+
+<!-- The Button Styling (Hidden by default, shifted up/left, dark border) -->
+<a id="backToTop" href="#" style="
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
+  background-color: #ffffff;
+  color: #111111;
+  padding: 8px 14px;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.2s ease, color 0.2s ease;
+">Top ↑</a>
+
+<!-- Scroll Logic & Hover Effects -->
+<script>
+  var button = document.getElementById('backToTop');
+
+  // Handle Scroll Visibility (Set to 60% depth threshold)
+  window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY + window.innerHeight;
+    var pageHeight = document.documentElement.scrollHeight;
+    
+    if (scrollPosition > pageHeight * 0.6) {
+      button.style.opacity = '1';
+      button.style.visibility = 'visible';
+    } else {
+      button.style.opacity = '0';
+      button.style.visibility = 'hidden';
+    }
+  });
+
+  // Handle Hover Effects (Flips to dark background with white text)
+  button.addEventListener('mouseenter', function() {
+    button.style.backgroundColor = '#111111';
+    button.style.color = '#ffffff';
+  });
+  
+  button.addEventListener('mouseleave', function() {
+    button.style.backgroundColor = '#ffffff';
+    button.style.color = '#111111';
+  });
+</script>
+
+
